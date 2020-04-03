@@ -12,11 +12,13 @@ namespace RazorPagesMovie.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\_ViewImports.cshtml"
 using RazorPagesMovie;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Pages/_ViewStart.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5bffd98f02597e6a09295a2131188dc64093be78", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
@@ -24,12 +26,14 @@ using RazorPagesMovie;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+#nullable restore
 #line 1 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\_ViewStart.cshtml"
   
     Layout = "_Layout";
 
 #line default
 #line hidden
+#nullable disable
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

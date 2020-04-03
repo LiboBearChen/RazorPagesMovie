@@ -12,11 +12,13 @@ namespace RazorPagesMovie.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\_ViewImports.cshtml"
 using RazorPagesMovie;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5bffd98f02597e6a09295a2131188dc64093be78", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewImports : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {

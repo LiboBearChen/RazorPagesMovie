@@ -12,11 +12,13 @@ namespace RazorPagesMovie.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\_ViewImports.cshtml"
 using RazorPagesMovie;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3872eb764dfc0eebb40743ebd6273590e9e1b22c", @"/Pages/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5bffd98f02597e6a09295a2131188dc64093be78", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Index : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
@@ -24,12 +26,14 @@ using RazorPagesMovie;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+#nullable restore
 #line 3 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Index.cshtml"
   
     ViewData["Title"] = "Home page";
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<div class=\"text-center\">\r\n    <h1 class=\"display-4\">News</h1>\r\n    <p>Learn about <a href=\"https://docs.microsoft.com/aspnet/core\">building Web apps with ASP.NET Core</a>.</p>\r\n</div>\r\n\r\n");
         }
         #pragma warning restore 1998

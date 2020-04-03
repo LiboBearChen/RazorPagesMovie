@@ -12,11 +12,13 @@ namespace RazorPagesMovie.Pages.Movies
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
 #line 1 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\_ViewImports.cshtml"
 using RazorPagesMovie;
 
 #line default
 #line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("RouteTemplate", "{id:int?}")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a8c7cb8c8b365cbf9d2845fc41e47874926481fe", @"/Pages/Movies/Details.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5bffd98f02597e6a09295a2131188dc64093be78", @"/Pages/_ViewImports.cshtml")]
@@ -49,74 +51,96 @@ using RazorPagesMovie;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n");
+#nullable restore
 #line 4 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
   
     ViewData["Title"] = "Details";
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n<h1>Details</h1>\r\n\r\n<div>\r\n    <h4>Movie</h4>\r\n    <hr />\r\n    <dl class=\"row\">\r\n        <dt class=\"col-sm-2\">\r\n            ");
+#nullable restore
 #line 15 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.Movie.Title));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd class=\"col-sm-10\">\r\n            ");
+#nullable restore
 #line 18 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayFor(model => model.Movie.Title));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dd>\r\n        <dt class=\"col-sm-2\">\r\n            ");
+#nullable restore
 #line 21 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.Movie.ReleaseDate));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd class=\"col-sm-10\">\r\n            ");
+#nullable restore
 #line 24 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayFor(model => model.Movie.ReleaseDate));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dd>\r\n        <dt class=\"col-sm-2\">\r\n            ");
+#nullable restore
 #line 27 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.Movie.Genre));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd class=\"col-sm-10\">\r\n            ");
+#nullable restore
 #line 30 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayFor(model => model.Movie.Genre));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dd>\r\n        <dt class=\"col-sm-2\">\r\n            ");
+#nullable restore
 #line 33 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.Movie.Price));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd class=\"col-sm-10\">\r\n            ");
+#nullable restore
 #line 36 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayFor(model => model.Movie.Price));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dd>\r\n        <dt class=\"col-sm-2\">\r\n            ");
+#nullable restore
 #line 39 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.Movie.Rating));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dt>\r\n        <dd class=\"col-sm-10\">\r\n            ");
+#nullable restore
 #line 42 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
        Write(Html.DisplayFor(model => model.Movie.Rating));
 
 #line default
 #line hidden
+#nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8c7cb8c8b365cbf9d2845fc41e47874926481fe6610", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8c7cb8c8b365cbf9d2845fc41e47874926481fe7066", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -129,11 +153,13 @@ using RazorPagesMovie;
                 throw new InvalidOperationException(InvalidTagHelperIndexerAssignment("asp-route-id", "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper", "RouteValues"));
             }
             BeginWriteTagHelperAttribute();
+#nullable restore
 #line 47 "C:\Users\Libo\Desktop\RazorPagesMovie\Pages\Movies\Details.cshtml"
                            WriteLiteral(Model.Movie.ID);
 
 #line default
 #line hidden
+#nullable disable
             __tagHelperStringValueBuffer = EndWriteTagHelperAttribute();
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues["id"] = __tagHelperStringValueBuffer;
             __tagHelperExecutionContext.AddTagHelperAttribute("asp-route-id", __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper.RouteValues["id"], global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -145,7 +171,7 @@ using RazorPagesMovie;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8c7cb8c8b365cbf9d2845fc41e47874926481fe8704", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8c7cb8c8b365cbf9d2845fc41e47874926481fe9198", async() => {
                 WriteLiteral("Back to List");
             }
             );
